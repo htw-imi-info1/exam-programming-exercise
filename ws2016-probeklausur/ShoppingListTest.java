@@ -37,7 +37,7 @@ public class ShoppingListTest
         list.add(new Item("Eggs"));
         list.add(new Item("Nuts"));
         list.add(new Item("Hummus"));
-        String expected = "Garlic\nOnions\nEggs\nNuts\nHummus";
+        String expected = "Garlic\nOnions\nEggs\nNuts\nHummus\n";
         assertEquals(expected,list.getList());
     }
 }
