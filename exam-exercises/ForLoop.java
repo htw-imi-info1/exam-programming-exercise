@@ -11,8 +11,8 @@ public class ForLoop
      * Sum up every element in the array passed as
      * an argument and return the sum
      * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
+     * @param  a   an array of integers
+     * @return     the sum of of all ints in a
      */
     public int sum(int[] a)
     {
