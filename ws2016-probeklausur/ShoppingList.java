@@ -1,0 +1,40 @@
+import java.util.Collection;
+/**
+ * The ShoppingList should hold a Collection
+ * of Items. Your task is to implement the 
+ * getList method.  
+ * 
+ * @author Barne Kleinen
+ */
+public class ShoppingList
+{
+    // this field holds a collection of items.
+    // you need to initialize it with an matching
+    // collection type in the Constructor.
+    private Collection<Item> items; 
+
+    /**
+     * Constructor for objects of class ShoppingList
+     */
+    public ShoppingList()
+    {
+        // items = new ...
+    }
+
+    public void add(Item item){
+        items.add(item);}
+
+    /**
+     * Your task is to implement this method.
+     * It should return a String containing all
+     * names of the items added to the ShoppingList.
+     * 
+     * @return     a String containing all items on the list separated by 
+     *             newline ("\n")
+     */
+    public String getList()
+    {
+        // replace this with your implementation
+        return null;
+    }
+}
