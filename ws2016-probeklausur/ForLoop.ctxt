@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=a
+comment0.target=int\ sum(int[])
+comment0.text=\n\ Your\ assignment\ is\ to\ implement\ this\ method\:\n\ Sum\ up\ every\ element\ in\ the\ array\ passed\ as\n\ an\ argument\ and\ return\ the\ sum\n\ \n\ @param\ \ y\ \ \ a\ sample\ parameter\ for\ a\ method\n\ @return\ \ \ \ \ the\ sum\ of\ x\ and\ y\ \n
+numComments=1
