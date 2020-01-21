@@ -32,12 +32,12 @@ public class ShoppingListTest
 
     @Test
     public void testList(){
-        list.add(new Item("Garlic"));
-        list.add(new Item("Onions"));
-        list.add(new Item("Eggs"));
-        list.add(new Item("Nuts"));
-        list.add(new Item("Hummus"));
-        String expected = "Garlic\nOnions\nEggs\nNuts\nHummus\n";
+        list.add(new Item(3, "Garlic"));
+        list.add(new Item(5, "Onions"));
+        list.add(new Item(6, "Eggs"));
+        list.add(new Item(10, "Nuts"));
+        list.add(new Item(1, "Hummus"));
+        String expected = "3 Garlic\n5 Onions\n6 Eggs\n10 Nuts\n1 Hummus\n";
         assertEquals(expected,list.getList());
     }
 }

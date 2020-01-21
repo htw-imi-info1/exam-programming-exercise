@@ -4,8 +4,10 @@
 public class Item
 {
     String name;
-    public Item(String name){
+    int amount;
+    public Item(int amount,String name){
         this.name = name;
+        this.amount = amount;
     }
 
     public String getName(){

@@ -1,4 +1,5 @@
 import java.util.Collection;
+import java.util.ArrayList;
 /**
  * The ShoppingList should hold a Collection
  * of Items. Your task is to implement the 
@@ -18,11 +19,12 @@ public class ShoppingList
      */
     public ShoppingList()
     {
-        // items = new ...
+         items = new ArrayList<>();
     }
 
     public void add(Item item){
-        items.add(item);}
+        items.add(item);
+    }
 
     /**
      * Your task is to implement this method.
@@ -34,7 +36,6 @@ public class ShoppingList
      */
     public String getList()
     {
-        // replace this with your implementation
         return null;
     }
 }
