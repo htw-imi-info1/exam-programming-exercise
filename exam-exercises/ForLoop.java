@@ -16,7 +16,10 @@ public class ForLoop
      */
     public int sum(int[] a)
     {
-        // replace this with your solution
-        return -1;     
+        int sum = 0;
+        for(int i=0;i<a.length;i++){
+            sum = sum + a[i];
+        }
+        return sum;  
     }
 }

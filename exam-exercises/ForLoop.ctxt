@@ -1,5 +1,7 @@
 #BlueJ class context
-comment0.params=a
-comment0.target=int\ sum(int[])
-comment0.text=\n\ Your\ assignment\ is\ to\ implement\ this\ method\:\n\ Sum\ up\ every\ element\ in\ the\ array\ passed\ as\n\ an\ argument\ and\ return\ the\ sum\n\ \n\ @param\ \ a\ \ \ an\ array\ of\ integers\n\ @return\ \ \ \ \ the\ sum\ of\ of\ all\ ints\ in\ a\n
-numComments=1
+comment0.target=ForLoop
+comment0.text=\n\ This\ is\ a\n\ \n\ @author\ Barne\ Kleinen\ \n
+comment1.params=a
+comment1.target=int\ sum(int[])
+comment1.text=\n\ Your\ assignment\ is\ to\ implement\ this\ method\:\n\ Sum\ up\ every\ element\ in\ the\ array\ passed\ as\n\ an\ argument\ and\ return\ the\ sum\n\ \n\ @param\ \ a\ \ \ an\ array\ of\ integers\n\ @return\ \ \ \ \ the\ sum\ of\ of\ all\ ints\ in\ a\n
+numComments=2
